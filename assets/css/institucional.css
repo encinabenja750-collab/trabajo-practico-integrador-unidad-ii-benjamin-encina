@@ -1,0 +1,46 @@
+nav {
+  background: rgba(67, 143, 77, 1);
+}
+
+nav a {
+  color: white !important;
+}
+
+#navbarNav a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  background-color: white;
+}
+
+.card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+footer {
+  background: rgba(67, 143, 77, 1);
+  padding: 20px 0;
+}
+
+footer li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.containerfooter p,
+.containerfooter a {
+  color: white !important;
+}
